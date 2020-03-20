@@ -1,0 +1,106 @@
+.shortcut {
+    line-height: 31px;
+    height: 31px;
+    background-color: #f1f1f1;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.login a {
+    text-decoration: none;
+    margin-right: 1em;
+    line-height: 31px;
+    font-size: 12px;
+    float: left;
+}
+
+.login a:hover {
+    color: rgb(200, 22, 128);
+}
+
+.register a {
+    float: left;
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(200, 22, 128);
+}
+
+.rightshortcut ul li {
+    /* //line-height: 31px; */
+    float: left;
+    /* border-right: 1px solid black; */
+    list-style: none;
+    font-size: 10px;
+}
+
+.rightshortcut ul li:nth-child(even) {
+    /*li中的双数位置*/
+    margin: 9px 15px 0;
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+}
+
+.nav {
+    position: relative;
+    height: 107px;
+    /* background-color: pink; */
+}
+
+.nav .w img {
+    margin-top: 27px;
+}
+
+.navbottom .w {
+    height: 47px;
+}
+
+.navbottom .w .all {
+    float: left;
+    width: 211px;
+    line-height: 47px;
+    text-align: center;
+    background-color: #b1191a;
+}
+
+.navbottom .w ul li {
+    list-style: none;
+    float: left;
+    padding: 0 26px;
+    line-height: 47px;
+    font-size: 14px;
+}
+
+.navbottom .w ul li a {
+    text-decoration: none;
+    color: #666;
+}
+
+.navbottom .w ul li a:hover {
+    color: #c81623;
+}
+
+.line {
+    height: 2px;
+    background-color: #b1191a;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+}
+
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(../images/logo.png) no-repeat;
+}
