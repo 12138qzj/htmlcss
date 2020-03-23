@@ -49,46 +49,13 @@
 
 .nav {
     position: relative;
+    width: 100%;
     height: 107px;
     /* background-color: pink; */
 }
 
 .nav .w img {
     margin-top: 27px;
-}
-
-.navbottom .w {
-    height: 47px;
-}
-
-.navbottom .w .all {
-    float: left;
-    width: 211px;
-    line-height: 47px;
-    text-align: center;
-    background-color: #b1191a;
-}
-
-.navbottom .w ul li {
-    list-style: none;
-    float: left;
-    padding: 0 26px;
-    line-height: 47px;
-    font-size: 14px;
-}
-
-.navbottom .w ul li a {
-    text-decoration: none;
-    color: #666;
-}
-
-.navbottom .w ul li a:hover {
-    color: #c81623;
-}
-
-.line {
-    height: 2px;
-    background-color: #b1191a;
 }
 
 .logo {
@@ -102,5 +69,185 @@
     display: block;
     width: 171px;
     height: 61px;
+    /* font-size: 0px;   京东的做法*/
+    text-indent: -200px;
+    overflow: hidden;
+    /*淘宝的做法  文字隐藏  */
     background: url(../images/logo.png) no-repeat;
+}
+
+.search input {
+    float: left;
+    border: 0;
+    outline: none;
+    padding: 10px;
+    height: 36px;
+    width: 455px;
+}
+
+.search button {
+    float: left;
+    border: 0;
+    font-size: 16px;
+    color: white;
+    width: 83px;
+    height: 35px;
+    background-color: #b1191a;
+}
+
+.search {
+    position: absolute;
+    left: 346px;
+    top: 25px;
+    height: 36px;
+    width: 538px;
+    border: 2px solid #b1191a;
+}
+
+.serwords {
+    position: absolute;
+    left: 346px;
+    top: 66px;
+    width: 538px;
+    height: 40px;
+}
+
+.serwords a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #666;
+    margin: 10px 9px;
+}
+
+.serwords .frist {
+    color: #c81623;
+}
+
+.serwords a:hover {
+    color: #c81623;
+}
+
+.shoppingcar {
+    position: absolute;
+    top: 25px;
+    right: 75px;
+    border: 1px solid #dfdfdf;
+    line-height: 36px;
+    font-size: 14px;
+    text-align: center;
+    width: 170px;
+    height: 36px;
+    background-color: #f7f7f7;
+}
+
+.shoppingcar a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.shoppingcar a:hover {
+    color: #b1191a;
+}
+
+.shoppingcar::before {
+    content: '\e93a';
+    font-family: 'icomoon';
+    margin-right: 10px;
+    color: #b1191a;
+}
+
+.shoppingcar::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    margin-left: 10px;
+}
+
+.count {
+    position: absolute;
+    right: 10px;
+    top: -2px;
+    line-height: 14px;
+    height: 14px;
+    color: white;
+    background-color: #b1191a;
+    border-radius: 7px 7px 7px 0;
+    padding: 0 5px;
+}
+
+.navbottom {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.navbottom .w .dropdown {
+    float: left;
+}
+
+.navbottom .w .navitem {
+    float: left;
+}
+
+.navbottom .w .dt {
+    width: 220px;
+    height: 100%;
+    line-height: 47px;
+    text-align: center;
+    background-color: #b1191a;
+}
+
+.navbottom .w .dd {
+    width: 220px;
+    height: 100%;
+    background-color: #c81623;
+}
+
+.navbottom .w .dd ul li {
+    list-style: none;
+    margin-left: 2px;
+    padding-left: 10px;
+    height: 40px;
+    line-height: 40px;
+    /* color: white; */
+}
+
+.navbottom .w .dd ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbottom .w .dd ul {
+    position: relative;
+}
+
+.navbottom .w .dd ul li::after {
+    position: absolute;
+    color: white;
+    right: 7px;
+    content: '\e920';
+    font-family: 'icomoon';
+}
+
+.navbottom .w .dd ul li:hover {
+    background-color: #fff;
+}
+
+.navbottom .w .dd ul li:hover a {
+    color: #c81623;
+}
+
+.navbottom .w .navitem ul li {
+    list-style: none;
+    float: right;
+    padding: 0 26px;
+    line-height: 47px;
+    font-size: 14px;
+}
+
+.navbottom .w .navitem ul li a {
+    text-decoration: none;
+    color: #666;
+}
+
+.navbottom .w .navitem ul li a:hover {
+    color: #c81623;
 }
