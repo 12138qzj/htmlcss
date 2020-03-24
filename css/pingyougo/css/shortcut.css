@@ -196,6 +196,7 @@
 }
 
 .navbottom .w .dd {
+    display: none;
     width: 220px;
     height: 100%;
     background-color: #c81623;
@@ -237,13 +238,13 @@
 
 .navbottom .w .navitem ul li {
     list-style: none;
-    float: right;
-    padding: 0 26px;
+    float: left;
     line-height: 47px;
     font-size: 14px;
 }
 
 .navbottom .w .navitem ul li a {
+    padding: 0 26px;
     text-decoration: none;
     color: #666;
 }
