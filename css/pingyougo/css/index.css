@@ -49,9 +49,35 @@
 }
 
 .main .bulletin .fee {
+    overflow: hidden;
     height: 209px;
     width: 100%;
-    background-color: skyblue;
+}
+
+.main .bulletin .fee ul {
+    width: 256px;
+}
+
+.main .bulletin .fee ul li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 63px;
+    height: 71px;
+}
+
+.main .bulletin .fee ul li i {
+    display: inline-block;
+    margin-top: 15px;
+    width: 24px;
+    height: 28px;
+    background: url(../images/icons.png) no-repeat -18px -15px;
+}
+
+.main .bulletin .fee ul li p {
+    font-size: 12px;
 }
 
 .main .srcbuttom {
